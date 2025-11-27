@@ -121,85 +121,7 @@
 <body>
 
   <!-- header -->
-  <!-- Sticky Navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top py-3">
-    <div class="container-fluid px-4">
-      <!-- Brand -->
-      <a class="navbar-brand fw-bold fs-4" href="#"> Navchetana Agro Center Producer Company Limited</a>
-
-      <!-- Toggler (mobile) -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
-        aria-controls="mobileMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Desktop Nav -->
-      <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end">
-        <ul class="navbar-nav align-items-center">
-          <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Mustard_Oil_Cake.php">Mustard Oil Cake</a></li>
-              <li><a class="dropdown-item" href="Neem_Khali_Cake.php">Neem Khali Cake</a></li>
-              <li><a class="dropdown-item" href="Cow_Dung_Cake.php">Cow Dung Cake</a></li>
-              <li><a class="dropdown-item" href="Organic_manure.php">Organic Manure</a></li>
-              <li><a class="dropdown-item" href="Outdoor_Plants.php">Outdoor Plants</a></li>
-              <li><a class="dropdown-item" href="Organic_Fertilizers.php">Organic Fertilizers</a></li>
-              <li><a class="dropdown-item" href="coconut_oil.php">Coconut Oil</a></li>
-              <li><a class="dropdown-item" href="Cold_pressed.php">Cold Pressed</a></li>
-              <li><a class="dropdown-item" href="groundnut_oil.php">Groundnut Oil</a></li>
-              <li><a class="dropdown-item" href="sesame_oil.php">Sesame</a></li>
-              <li><a class="dropdown-item" href="Turmeric_fingers.php">Turmeric Fingers</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Offcanvas for Mobile Menu -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-
-        <!-- Dropdown inside Offcanvas -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Mustard_Oil_Cake.php">Mustard Oil Cake</a></li>
-            <li><a class="dropdown-item" href="Neem_Khali_Cake.php">Neem Khali Cake</a></li>
-            <li><a class="dropdown-item" href="Cow_Dung_Cake.php">Cow Dung Cake</a></li>
-            <li><a class="dropdown-item" href="Organic_manure.php">Organic Manure</a></li>
-            <li><a class="dropdown-item" href="Outdoor_Plants.php">Outdoor Plants</a></li>
-            <li><a class="dropdown-item" href="Organic_Fertilizers.php">Organic Fertilizers</a></li>
-            <li><a class="dropdown-item" href="coconut_oil.php">Coconut Oil</a></li>
-            <li><a class="dropdown-item" href="Cold_pressed.php">Cold Pressed</a></li>
-            <li><a class="dropdown-item" href="groundnut_oil.php">Groundnut Oil</a></li>
-            <li><a class="dropdown-item" href="sesame_oil.php">Sesame</a></li>
-            <li><a class="dropdown-item" href="Turmeric_fingers.php">Turmeric Fingers</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+<?php include('header.php') ?>
 
   <!-- carousel  -->
   <div id="customCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
@@ -391,6 +313,7 @@
               </div>
             </div>
           </div>
+
           <!-- Product: -->
           <div class="col-md-4">
             <div class="product-card bg-white">
@@ -403,6 +326,7 @@
               </div>
             </div>
           </div>
+          
           <!-- Product: -->
           <div class="col-md-4">
             <div class="product-card bg-white">
@@ -841,104 +765,7 @@
     </div>
     <!-- end contact us -->
 
-    <!-- Footer -->
-    <footer class="pt-5 pb-4 bg-light text-dark" data-aos="fade-up" data-aos-delay="100">
-      <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
+    <!-- footer -->
+     <?php include('footer.php') ?>
 
-          <!-- Company Info -->
-          <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
-            <h5 class="text-uppercase fw-bold mb-4">Navchetana Agro Center Producer Company Limited</h5>
-            <p>
-              We are committed to promoting sustainable and organic farming practices. At Navchetana Agro Center, we
-              provide high-quality organic fertilizers, natural plant care products, and eco-friendly agricultural
-              solutions for a healthier future.
-            </p>
-          </div>
-
-          <!-- Products -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Our Products</h6>
-            <ul class="list-unstyled">
-              <li><a href="#products" class="text-decoration-none text-dark">Organic Fertilizers</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Outdoor Plants</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Organic Manure</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Neem Oil</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Cow Dung Cake</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Neem Khali Cake</a></li>
-              <li><a href="#products" class="text-decoration-none text-dark">Mustard Oil Cake</a></li>
-            </ul>
-          </div>
-
-          <!-- Focus / Mission -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Our Focus</h6>
-            <ul class="list-unstyled">
-              <li><a href="#about" class="text-decoration-none text-dark">Organic Farming</a></li>
-              <li><a href="#sustainability" class="text-decoration-none text-dark">Sustainability</a></li>
-              <li><a href="#community" class="text-decoration-none text-dark">Farmer Empowerment</a></li>
-              <li><a href="#quality" class="text-decoration-none text-dark">Quality Assurance</a></li>
-              <li><a href="#contact" class="text-decoration-none text-dark">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <!-- Contact Info -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="bi bi-geo-alt-fill me-2"></i> Village Sikhad, Mirzapur, Uttar Pradesh, India - 231306</p>
-            <p><i class="bi bi-envelope-fill me-2"></i> singharun009@gmail.com</p>
-            <p><i class="bi bi-telephone-fill me-2"></i> +91 9650091622 || 9990044660 </p>
-          </div>
-        </div>
-
-        <hr class="my-4" />
-
-        <!-- Bottom Row -->
-        <div class="row align-items-center text-center">
-          <div class="col-md-6 mb-3 mb-md-0">
-            <p class="mb-0">&copy; 2025 <strong>Navchetana Agro Center Producer Company Limited</strong>. All Rights
-              Reserved.</p>
-            <small>Designed by <a href="https://trade4export.com/" target="_blank"
-                class="text-decoration-none fw-bold text-dark">Trade4Export</a></small>
-          </div>
-
-          <!-- Social Media -->
-          <div class="col-md-6">
-            <div class="d-flex justify-content-center justify-content-md-end gap-3">
-              <a href="#" class="text-dark"><i class="bi bi-facebook fs-5"></i></a>
-              <a href="#" class="text-dark"><i class="bi bi-instagram fs-5"></i></a>
-              <a href="https://wa.me/918882377136" target="_blank" class="text-dark"><i
-                  class="bi bi-whatsapp fs-5"></i></a>
-              <a href="#" class="text-dark"><i class="bi bi-linkedin fs-5"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- send message on whatsapp -->
-    <script>
-      document.getElementById("contactForm").addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        const name = document.getElementById("name").value.trim();
-        const phone = document.getElementById("phone").value.trim();
-        const message = document.getElementById("message").value.trim();
-
-        const whatsappMessage = `Hello BS COMPUTERS,%0AName: ${name}%0APhone: ${phone}%0AMessage: ${message}`;
-        const whatsappNumber = "91XXXXXXXXXX"; // Replace with your WhatsApp number
-
-        window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
-      });
-    </script>
-
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script src="assets/js/script.js"></script>
-    <!-- bootstrap js  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"></script>
-</body>
-
-</html>
+     

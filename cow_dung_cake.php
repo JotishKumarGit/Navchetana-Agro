@@ -126,54 +126,45 @@
     <!-- Breadcrumb Section -->
     <section class="breadcrumb-section text-center text-white">
         <div class="container breadcrumb-content">
-            <h1 class="fw-bold mb-3">Contact Us </h1>
+            <h1 class="fw-bold mb-3">Cow Dung Cake </h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-white" aria-current="page">Contact Us</li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Cow Dung Cake</li>
                 </ol>
             </nav>
         </div>
     </section>
     <!-- End Breadcrumb Section -->
 
-    
-        <!-- contact us -->
-    <div class="container contact-container">
-      <div class="row">
-        <!-- Left Side: Google Map -->
-        <div class="col-md-6 mb-4 mb-md-0">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3502.761317657085!2d77.44718152457182!3d28.60693638524425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Shiri%20Radha%20Sky%20Road%2C%20F03%2Csky%20Plaza%2C%20Sector%2016B%20Rd%2C%20Bhangel%2C%20Noida%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201318!5e0!3m2!1sen!2sin!4v1760506194029!5m2!1sen!2sin"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <!-- products details -->
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Left Side: Product Image -->
+            <div class="col-md-6">
+                <img src="assets/images/Cow_Dung_cake.jpeg" class="img-fluid rounded" height="auto" width="100%" alt="Cow Dung Cake" />
+            </div>
 
-        <!-- Right Side: Contact Form -->
-        <div class="col-md-6">
-          <div class="contact-form">
-            <h3 class="mb-4">Contact Us</h3>
-            <form id="contactForm">
-              <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" required />
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" required />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Your Message</label>
-                <textarea class="form-control" id="message" rows="4" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">Send via WhatsApp</button>
-            </form>
-          </div>
+            <!-- Right Side: Product Details -->
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-3">Traditional Cow Dung Cakes</h2>
+                <p class="fw-semibold">
+                    Our Cow Dung Cakes are handmade using organic cow dung, dried naturally under the sun.
+                    They are ideal for:
+                </p>
+                <ul class="fw-semibold">
+                    <li>Organic farming as a natural fertilizer</li>
+                    <li>Eco-friendly and sustainable fuel for cooking or heating</li>
+                    <li>Maintaining soil fertility and enriching nutrients</li>
+                </ul>
+                <p class="fw-semibold">
+                    Sourced sustainably from local farms, our Cow Dung Cakes provide an environmentally conscious way to support both your agricultural and household needs.
+                </p>
+                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- end contact us -->
 
-    
     <!-- footer -->
-     <?php include('footer.php') ?>
+    <?php include('footer.php') ?>

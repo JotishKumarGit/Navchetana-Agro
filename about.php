@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BS COMPUTERS - About Page</title>
+    <title> Navchetana Agro Center Producer Company Limited </title>
     <!-- bootstrap icnos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -121,7 +121,7 @@
 <body>
 
     <!-- header -->
-    <?php include('includes/header.php') ?>
+    <?php include('header.php') ?>
 
     <!-- Breadcrumb Section -->
     <section class="breadcrumb-section text-center text-white">
@@ -146,32 +146,35 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="assets/images/Laptop-chip-level-repairing.jpg"
-                        alt="BS Computer - Laptop and Computer Repair Experts" height="auto" class="about-img" />
+                    <img src="assets/images/Organic_Fertilizers.jpeg" height="auto" width="100%"
+                        alt="Navchetana Agro - Organic Farming Products and Solutions" class="about-img" />
                 </div>
 
                 <div class="col-md-6" data-aos="fade-left">
                     <h3 class="about-title mb-4 animate__animated animate__fadeInUp">
-                        BS Computer: Your Trusted Tech Partner for Over 5 Years
+                        Navchetana Agro Center Producer Company Limited
                     </h3>
                     <p class="about-text animate__animated animate__fadeInUp animate__delay-1s">
-                        For over 15 years, <span class="highlight">BS Computer</span> has
-                        been Faridabad's trusted expert for professional computer and
-                        laptop repair, dedicated to providing reliable solutions and
-                        ensuring customer satisfaction.
+                        At <span class="highlight">Navchetana Agro Center Producer Company Limited</span>, we are committed to
+                        promoting sustainable agriculture through 100% organic and eco-friendly products. With a deep connection
+                        to
+                        nature and the farming community, our goal is to enrich soil health and support healthier crops.
                     </p>
                     <p class="about-text animate__animated animate__fadeInUp animate__delay-2s">
-                        Our skilled technicians handle all hardware solutions, from
-                        complex component repairs to supplying and installing high-quality
-                        parts—like keyboards, mice, and screens—for all major brands.
+                        Our range includes high-quality <strong>organic fertilizers</strong>, a variety of <strong>outdoor
+                            plants</strong>, and natural soil enhancers like <strong>organic manure</strong>, <strong>cow dung
+                            cake</strong>, <strong>neem oil</strong>, <strong>neem khali cake</strong>, and <strong>mustard oil
+                            cake</strong>. Each product is carefully sourced and produced to ensure purity and effectiveness.
                     </p>
                     <p class="about-text animate__animated animate__fadeInUp animate__delay-3s">
-                        We also provide complete software support for all versions of
-                        Windows. We pride ourselves on offering fast, transparent, and
-                        customer-focused service to give you peace of mind.
+                        We believe in empowering farmers, gardeners, and nature lovers by delivering solutions that are safe for
+                        the
+                        environment and beneficial for the earth. Whether you are cultivating crops or beautifying your home
+                        garden,
+                        our products support healthy, chemical-free growth.
                     </p>
-                    <a href="#contact" class="btn btn-black mt-3 animate__animated animate__fadeInUp animate__delay-4s">Get in
-                        Touch</a>
+                    <a href="#contact" class="btn btn-black mt-3 animate__animated animate__fadeInUp animate__delay-4s">Contact
+                        Us</a>
                 </div>
             </div>
         </div>
@@ -179,6 +182,5 @@
     <!-- end about us  -->
 
 
-
     <!-- footer -->
-    <?php include('includes/footer.php') ?>
+    <?php include('footer.php') ?>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BS COMPUTERS - Blog Page</title>
+    <title> Navchetana Agro Center Producer Company Limited </title>
     <!-- bootstrap icnos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -121,7 +121,7 @@
 <body>
 
     <!-- header -->
-    <?php include('includes/header.php') ?>
+    <?php include('header.php') ?>
 
     <!-- Breadcrumb Section -->
     <section class="breadcrumb-section text-center text-white">
@@ -138,57 +138,67 @@
     </section>
     <!-- End Breadcrumb Section -->
 
+    
+
     <!-- start blog -->
     <section id="blog" class="py-5 bg-light">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold">Latest Blogs</h2>
-                <p class="text-muted">Stay updated with the latest from BS COMPUTERS</p>
-            </div>
-
-            <div class="row g-4">
-
-                <!-- Blog Post 1 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/images/Laptop-battery.jpg" class="card-img-top" alt="Blog Image">
-                        <div class="card-body">
-                            <h5 class="card-title">5 Signs Your Laptop Needs a New Battery</h5>
-                            <p class="card-text text-muted">Learn how to detect battery issues early and avoid system failures.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Post 2 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/images/Laptop-cable.jpg" class="card-img-top" alt="Blog Image">
-                        <div class="card-body">
-                            <h5 class="card-title">Top 10 Laptop Accessories in 2025</h5>
-                            <p class="card-text text-muted">From coolers to docking stations, these tools can boost your productivity.
-                            </p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blog Post 3 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card h-100 shadow-sm border-0">
-                        <img src="assets/images/Laptop-display.jpg" class="card-img-top" alt="Blog Image">
-                        <div class="card-body">
-                            <h5 class="card-title">Desktop vs Laptop: Which is Better for You?</h5>
-                            <p class="card-text text-muted">We break down performance, price, and use-case to help you choose.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Latest Blogs</h2>
+          <p class="text-muted">Stay updated with the latest from Navchetana Agro Center Producer Company Limited</p>
         </div>
+
+        <div class="row g-4">
+
+          <!-- Blog Post 1 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="assets/images/Organic_Fertilizers.jpeg" class="card-img-top" alt="Organic Fertilizers">
+              <div class="card-body">
+                <h5 class="card-title">Benefits of Using Organic Fertilizers</h5>
+                <p class="card-text text-muted">
+                  Discover how organic fertilizers enrich soil naturally, improve plant health,
+                  and support sustainable farming practices.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="assets/images/Organic_manure.jpg" class="card-img-top" alt="Organic Manure">
+              <div class="card-body">
+                <h5 class="card-title">How Organic Manure Improves Soil Fertility</h5>
+                <p class="card-text text-muted">
+                  Learn how compost and natural manure enhance soil texture, boost microbial activity,
+                  and help plants grow stronger.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="assets/images/Outdoor_plants.jpeg" class="card-img-top" alt="Outdoor Plants">
+              <div class="card-body">
+                <h5 class="card-title">Top Outdoor Plants to Grow Easily at Home</h5>
+                <p class="card-text text-muted">
+                  Explore low-maintenance outdoor plants that purify the air, add beauty,
+                  and thrive in all weather conditions.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
     <!-- end blog -->
-
+    
     <!-- footer -->
-    <?php include('includes/footer.php') ?>
+     <?php include('footer.php') ?>

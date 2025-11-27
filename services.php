@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BS COMPUTERS - Services Page</title>
+    <title> Navchetana Agro Center Producer Company Limited </title>
     <!-- bootstrap icnos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -121,7 +121,7 @@
 <body>
 
     <!-- header -->
-    <?php include('includes/header.php') ?>
+    <?php include('header.php') ?>
 
     <!-- Breadcrumb Section -->
     <section class="breadcrumb-section text-center text-white">
@@ -138,111 +138,108 @@
     </section>
     <!-- End Breadcrumb Section -->
 
-  <!-- services  -->
-  <section class="py-5 bg-white">
-    <div class="container">
-      <h2 class="text-center mb-5">Our Services</h2>
-      <div class="row g-4">
-        <!-- Service 1 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-tools fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Laptop & PC Repair</h5>
-              <p class="card-text text-muted">
-                Fast and reliable repair services for laptops and desktops of
-                all brands.
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- services  -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row g-4">
 
-        <!-- Service 2 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-hdd-fill fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Data Recovery</h5>
-              <p class="card-text text-muted">
-                Recover lost or corrupted data from hard drives, SSDs, or USB
-                devices.
-              </p>
-            </div>
-          </div>
-        </div>
+                <!-- Service 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-flower1 fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Organic Fertilizer Supply</h5>
+                            <p class="card-text text-muted">
+                                We provide high-quality organic fertilizers that enrich soil health and support sustainable farming
+                                practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Service 3 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-shield-lock fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Virus Removal</h5>
-              <p class="card-text text-muted">
-                Complete removal of viruses, malware, and spyware without data
-                loss.
-              </p>
-            </div>
-          </div>
-        </div>
+                <!-- Service 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-tree fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Outdoor Plant Sales</h5>
+                            <p class="card-text text-muted">
+                                Choose from a wide variety of healthy, vibrant outdoor plants ideal for farms, gardens, and
+                                landscapes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Service 4 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-pc-display-horizontal fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Display Replacement</h5>
-              <p class="card-text text-muted">
-                Broken screen? We replace laptop and desktop displays with
-                genuine parts.
-              </p>
-            </div>
-          </div>
-        </div>
+                <!-- Service 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-droplet-half fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Neem Oil Distribution</h5>
+                            <p class="card-text text-muted">
+                                Cold-pressed pure neem oil for natural pest control, protecting your crops without harmful chemicals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Service 5 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-cpu-fill fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Chip-Level Repair</h5>
-              <p class="card-text text-muted">
-                Advanced repair for motherboard and other hardware-level
-                issues.
-              </p>
-            </div>
-          </div>
-        </div>
+                <!-- Service 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-box2-heart fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Organic Manure & Compost</h5>
+                            <p class="card-text text-muted">
+                                Boost your soil’s fertility with nutrient-rich organic manure, ideal for crops and home gardening.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Service 6 -->
-        <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm text-center">
-            <div class="card-body">
-              <div class="mb-3">
-                <i class="bi bi-battery-charging fs-1 text-dark"></i>
-              </div>
-              <h5 class="card-title fw-bold">Battery & Power Solutions</h5>
-              <p class="card-text text-muted">
-                Original battery replacements, chargers, and power jack
-                repairs.
-              </p>
+                <!-- Service 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-fire fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Cow Dung Cake Supply</h5>
+                            <p class="card-text text-muted">
+                                Naturally dried cow dung cakes for use as organic fertilizer or eco-friendly fuel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-nut-fill fs-1 text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Neem Khali & Mustard Oil Cake</h5>
+                            <p class="card-text text-muted">
+                                Organic soil enhancers that improve root strength and crop yield, suitable for all types of farming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- end services  -->
+    </section>
+    <!-- end services  -->
 
     <!-- footer -->
-    <?php include('includes/footer.php') ?>
-    
+    <?php include('footer.php') ?>
