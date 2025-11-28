@@ -70,7 +70,7 @@
         <div class="row align-items-center">
             <!-- Left Side: Product Image -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="assets/images/Organic_Fertilizers.jpeg" class="img-fluid rounded" alt="Organic Fertilizers" />
+                <img src="assets/images/Organic_Fertilizers.jpeg" heihgt="auto" width="100%" class="img-fluid rounded" alt="Organic Fertilizers" />
             </div>
 
             <!-- Right Side: Product Details -->

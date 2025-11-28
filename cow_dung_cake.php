@@ -143,7 +143,7 @@
         <div class="row align-items-center">
             <!-- Left Side: Product Image -->
             <div class="col-md-6">
-                <img src="assets/images/Cow_Dung_cake.jpeg" class="img-fluid rounded" height="auto" width="100%" alt="Cow Dung Cake" />
+                <img src="assets/images/Cow_Dung_Cake.webp" class="img-fluid rounded" height="auto" width="100%" alt="Cow Dung Cake" />
             </div>
 
             <!-- Right Side: Product Details -->

@@ -143,7 +143,7 @@
         <div class="row align-items-center">
             <!-- Left Side: Product Image -->
             <div class="col-md-6">
-                <img src="assets/images/Mustard_oil.jpeg" class="img-fluid rounded" height="auto" width="100%" alt="Mustard Oil" />
+                <img src="assets/images/Mustard_Oil.jpg" class="img-fluid rounded" height="auto" width="100%" alt="Mustard Oil" />
             </div>
 
             <!-- Right Side: Product Details -->

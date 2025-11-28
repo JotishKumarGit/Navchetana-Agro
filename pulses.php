@@ -70,7 +70,7 @@
         <div class="row align-items-center">
             <!-- Left Side: Product Image -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="assets/images/pulses.jpeg" class="img-fluid rounded" alt="Pulses" />
+                <img src="assets/images/pulses.jpeg" height="auto" width="100%" class="img-fluid rounded" alt="Pulses" />
             </div>
 
             <!-- Right Side: Product Details -->

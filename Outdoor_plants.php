@@ -70,7 +70,7 @@
         <div class="row align-items-center">
             <!-- Left Side: Product Image -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="assets/images/Outdoor_plants.jpeg" class="img-fluid rounded" alt="Outdoor Plants" />
+                <img src="assets/images/Outdoor_plants.jpeg" height="auto" width="100%" class="img-fluid rounded" alt="Outdoor Plants" />
             </div>
 
             <!-- Right Side: Product Details -->

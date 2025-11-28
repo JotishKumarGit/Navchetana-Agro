@@ -227,7 +227,7 @@
           <!-- Product: -->
           <div class="col-md-4">
             <div class="product-card bg-white">
-              <img src="assets/images/Cow_Dung_cake.jpeg" class="img-fluid product-img" alt="Computer Repair" />
+              <img src="assets/images/Cow_Dung_Cake.webp" class="img-fluid product-img" alt="Computer Repair" />
               <div class="p-4">
                 <h5 class="fw-bold">Cow Dung Cake</h5>
                 <div class="d-flex justify-content-center align-items-center">
@@ -240,7 +240,7 @@
           <!-- Product: -->
           <div class="col-md-4">
             <div class="product-card bg-white">
-              <img src="assets/images/Mustard_oil.jpeg" class="img-fluid product-img" alt="Computer Repair" />
+              <img src="assets/images/Mustard_Oil.jpg" class="img-fluid product-img" alt="Computer Repair" />
               <div class="p-4">
                 <h5 class="fw-bold">Mustard Oil</h5>
                 <div class="d-flex justify-content-center align-items-center">
